@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'serifa';
+    src: url('SerifaStd-Light.otf');
+    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html {
+	margin:0;
+	padding:0;
+	background-color:#7590bb;
+
+}
+body{
+	text-align: left;
+	font-family: "serifa";
+	//font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	background-color:#7590bb;
+	color: #fff;
+	font-size: 75%;
+}
+a{
+	color: #27D;
+	text-decoration: none;
+}
+a:focus, a:hover, a:active { 
+	text-decoration: underline;
+}
+p, li {
+	line-height: 1.8em;
+}
+h1, h2 {
+	//font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	margin: 0 0 10px 0;
+	letter-spacing:-1px;
+	font-weight:normal;
+}
+h1 {
+	padding: 0;
+	font-size: 3em;
+	color: #333;
+}
+h2 {
+	padding-top: 10px;
+	font-size:2em;
+}
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+}
+div#page {
+	width: 900px;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+	border-color: #ddd;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+}
+
+div#wrapper{
+width:100%;
+//margin-left: auto;
+//	margin-right: auto;
+	position:relative;	
+	
+}
+div#container {
+	//padding: 20px;
+	top:150px;
+	position:absolute;
+	width:1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:75px;
+	left:50px;
+}
+
+div#infotext{
+	left: 45px;
+	position: relative;
+	width: 800px;
+	float: left;
+	top: -5px;
+	
+}
+
+div#indeximages {
+	//padding: 20px;
+	top:-5px;
+	position:relative;
+	width:1100px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:45px;
+}
+
+div#indexPhoto {
+	//padding: 20px;
+	//top:-5px;
+	position:relative;
+	width:400px;
+	display: inline-block;
+	height: 490px;
+	//float: right;
+	//margin-left: auto;
+	//margin-right: auto;
+	
+}
+
+div#indexGD {
+	//padding: 20px;
+	//top:-5px;
+	position:relative;
+	width:400px;
+	display: inline-block;
+	//margin-left: auto;
+	//margin-right: auto;
+	padding-right:40px;
+	height: 490px;
+	float:left;
+}
+
+
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+div#footer {
+	clear: both;
+	color: #777;
+	margin: 0 auto;
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+
+#menu{
+   	width:120px;	
+   	height:100px;
+   	left:50px;
+   	top:20px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	#gd{
+   	width:200px;	
+   	height:50px;
+   	left:170px;
+   	top:20px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	.GDLink {
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url('GDtrans.jpg') bottom;
+	text-indent: -99999px;
+}
+.GDLink:hover {
+	background-position: 0 0;
+}
+   	
+   	#photo{
+   	width:200px;	
+   	height:50px;
+   	left:170px;
+   	top:70px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	.PhotoLink {
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url('Phototrans.jpg') bottom;
+	text-indent: -99999px;
+}
+.PhotoLink:hover {
+	background-position: 0 0;
+}
+
+
+#about{
+   	width:75px;	
+   	height:37.5px;
+   	left:0px;
+   	top:0px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	.AboutLink {
+	display: block;
+	width: 75px;
+	height: 37.5px;
+	background: url('Abouttrans.jpg') bottom;
+	text-indent: -99999px;
+}
+.AboutLink:hover {
+	background-position: 0 0;
+}
+
+
+#contact{
+   	width:75px;	
+   	height:37.5px;
+   	left:0px;
+   	top:37.5px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	.ContactLink {
+	display: block;
+	width: 75px;
+	height: 37.5px;
+	background: url('Contacttrans.jpg') bottom;
+	text-indent: -99999px;
+}
+.ContactLink:hover {
+	background-position: 0 0;
+}
+
+
+#store{
+   	width:75px;	
+   	height:37.5px;
+   	left:0px;
+   	top:75px;
+   	position:absolute;
+   	
+   		
+   	}
+   	
+   	.StoreLink {
+	display: block;
+	width: 75px;
+	height: 37.5px;
+	background: url('Storetrans.jpg') bottom;
+	text-indent: -99999px;
+}
+.StoreLink:hover {
+	background-position: 0 0;
+}
+
